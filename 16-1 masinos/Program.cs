@@ -10,7 +10,7 @@ namespace _16_1_masinos
     {
         static void Main(string[] args)
         {
-            var automobilis = new automobilis("audi", "a3", 2000, "2,2", 33, 2000);
+            var automobilis = new automobilis("audi", "a3", 2000, "2,2", 666, 2000);
             automobilis.isvedimas();
 
             var automobiliai = new List<automobilis>
@@ -18,10 +18,10 @@ namespace _16_1_masinos
                 new automobilis("bmw", "315",2000,"3,0",250,100000),
                 new automobilis("bmw", "330",1998,"3,5",300,103000),
                 new automobilis("lada", "samara",2011,"1,0",25,100000),
-                new automobilis("bmw", "850",2000,"5,0",500,1000),
+                new automobilis("bmw", "850",2000,"5,0",500,10009),
                 new automobilis("mb", "E320",1980,"3,3",140,100000),
                 new automobilis("bmw", "330i",1994,"3,0",250,50000),
-                new automobilis("mazda", "6",2016,"2,0",230,1000),
+                new automobilis("mazda", "6",2016,"2,0",230,1001),
             };
 
             var prog = new Program();
@@ -34,6 +34,14 @@ namespace _16_1_masinos
             var seniausias = prog.SeniausiasAuto(automobiliai);
             Console.WriteLine("Seniausias auto: ");
             seniausias.isvedimas();
+
+            var galingiausias = prog.GalingiausiasAuto(automobiliai);
+            Console.WriteLine("Galingiausias auto: ");
+            galingiausias.isvedimas();
+
+            var MinRida = prog.MaziausiaRida(automobiliai);
+            Console.WriteLine("Maziausiai nuvaziaves automobilis: ");
+            MinRida.isvedimas();
 
             Console.ReadLine();
         } // main metodo pabaiga
@@ -77,14 +85,29 @@ namespace _16_1_masinos
         public automobilis GalingiausiasAuto(List<automobilis> automobiliai)
         {
             var laikinas = automobiliai.First();
-            foreach (var item in collection)
+            foreach (var auto in automobiliai)
             {
-
+                if (auto.Galia>laikinas.Galia)
+                {
+                    laikinas = auto;
+                }
             }
+            return laikinas;
         }    
             
         // maziausia rida      
-        
+        public automobilis MaziausiaRida(List<automobilis> automobiliai)
+        {
+            var laikinas = automobiliai.First();
+            foreach (var auto in automobiliai)
+            {
+                if (auto.Rida<laikinas.Rida)
+                {
+                    laikinas = auto;
+                }
+            }
+            return laikinas;
+        }
 
     }
 }
