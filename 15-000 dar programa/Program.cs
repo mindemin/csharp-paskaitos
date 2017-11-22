@@ -22,8 +22,6 @@ namespace _15_000_dar_programa
             Console.WriteLine(" Vidutinis primilzis: " + programa.vidurkis(primilziai));
             programa.DuDidziausi(primilziai);
 
-
-
             Console.ReadLine();
         }
             // Ivedimo metodas
