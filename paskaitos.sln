@@ -37,7 +37,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-5 uzduotis", "3-5 uzduoti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-6 uzduotis", "3-6 uzduotis\3-6 uzduotis.csproj", "{60A78BE3-17CD-4FED-8AD2-136A4474327E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 pasibandymas", "4 pasibandymas\4 pasibandymas.csproj", "{5392FBFA-16BE-4A7E-BDB0-945090AE3FEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-0 pasibandymas", "4 pasibandymas\4-0 pasibandymas.csproj", "{5392FBFA-16BE-4A7E-BDB0-945090AE3FEA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-1 uzduotis", "4-1 uzduotis\4-1 uzduotis.csproj", "{1E9AE729-0760-48A0-A3E4-724B607A7A4C}"
 EndProject
@@ -97,11 +97,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-4 uzduotis", "9-4 uzduoti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9 tarpine uzduotis", "9 tarpine uzduotis\9 tarpine uzduotis.csproj", "{A931FFED-6400-4571-A0B3-2AC94A8EFB90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 interneto uzduotis", "18 interneto uzduotis\18 interneto uzduotis.csproj", "{91E05B04-BC94-4245-B644-93A847689327}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-18 interneto uzduotis", "18 interneto uzduotis\9-18 interneto uzduotis.csproj", "{91E05B04-BC94-4245-B644-93A847689327}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 ciklas for", "11 ciklas for", "{CB7F206A-24E6-4F19-87F4-25C346311F37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pvz", "pvz\pvz.csproj", "{CC789F47-9D8F-4FE3-B01F-F4936EB41B7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-0 pvz", "pvz\11-0 pvz.csproj", "{CC789F47-9D8F-4FE3-B01F-F4936EB41B7D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-7 uzduotis", "11-7 uzduotis\11-7 uzduotis.csproj", "{C0D509C1-7BF9-4169-BB9D-7073C10BA673}"
 EndProject
@@ -129,13 +129,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-5 uzduotis", "12-5 uzduo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-6 uzduotis", "12-6 uzduotis\12-6 uzduotis.csproj", "{A71E7C61-BFC2-4EBE-B775-23ADBB3C28F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do while bandymas", "do while bandymas\do while bandymas.csproj", "{E43EAA1E-29DB-4EC1-A6F3-AA466E0F23C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-0 do while bandymas", "do while bandymas\12-0 do while bandymas.csproj", "{E43EAA1E-29DB-4EC1-A6F3-AA466E0F23C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarpine uzduotis", "tarpine uzduotis\tarpine uzduotis.csproj", "{E57A97CF-A791-43EB-89D0-17D648DE3232}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-99 tarpine uzduotis", "tarpine uzduotis\12-99 tarpine uzduotis.csproj", "{E57A97CF-A791-43EB-89D0-17D648DE3232}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13 masyvai", "13 masyvai", "{2343ED3D-7A5F-4273-90B1-032070776FF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pavyzdziai masyvai", "mas1-1 uzduotis\pavyzdziai masyvai.csproj", "{2D3C11A9-8758-4B02-A0C0-3E1D512D2FD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-0 pavyzdziai masyvai", "mas1-1 uzduotis\13-0 pavyzdziai masyvai.csproj", "{2D3C11A9-8758-4B02-A0C0-3E1D512D2FD7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-1 uzduotis", "1-1 uzduotis masyvas\13-1 uzduotis.csproj", "{EE2C0967-EC9C-41FE-9F25-DFB7C4ECBE55}"
 EndProject
