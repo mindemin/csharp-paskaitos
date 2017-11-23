@@ -48,7 +48,42 @@ namespace _16_4_studentas
                 Console.Write(i + " ");
             }
             Console.WriteLine(" ");
+
+            Console.WriteLine("Visu pazymiu vidurkis: " + Math.Round(vidurkis(),2));
+
+            Console.WriteLine("Didziausias pazymys: " + DidziausiasPazymys());
         }
+
+        public double vidurkis()
+        {
+            return (MatematikosPazymiai.Average() +
+                InformatikosPazymiai.Average() +
+                BiologijosPazymiai.Average()) / 3;
+            
+        }
+
+        public int DidziausiasPazymys()
+        {
+            var pirmas = MatematikosPazymiai.Max();
+            var antras = InformatikosPazymiai.Max();
+            var trecias = BiologijosPazymiai.Max();
+
+            if (pirmas>antras&&pirmas>trecias)
+            {
+                return pirmas;
+            }
+            else if (antras>pirmas&&antras>trecias)
+            {
+                return antras;
+            }
+            else
+            {
+                return trecias;
+            }
+        }
+        
+
+         
 
     }
 }
