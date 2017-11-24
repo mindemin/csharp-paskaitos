@@ -173,6 +173,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-3 paduotuve", "16-3 padu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-4 studentas", "16-4 studentas\16-4 studentas.csproj", "{69F846C4-B794-43EB-A67A-7E07FFC601BC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17 paveldejimas", "17 paveldejimas", "{551017EC-65AE-4C5E-8CD6-47B8507F27A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 pavyzdziai", "17 pavyzdziai\17 pavyzdziai.csproj", "{2AD69F7B-A3F5-45B9-B376-ED2F709232F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -459,6 +463,10 @@ Global
 		{69F846C4-B794-43EB-A67A-7E07FFC601BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69F846C4-B794-43EB-A67A-7E07FFC601BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69F846C4-B794-43EB-A67A-7E07FFC601BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD69F7B-A3F5-45B9-B376-ED2F709232F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD69F7B-A3F5-45B9-B376-ED2F709232F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD69F7B-A3F5-45B9-B376-ED2F709232F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD69F7B-A3F5-45B9-B376-ED2F709232F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -534,5 +542,6 @@ Global
 		{DEED2950-76FB-4978-8280-CA561E0248E6} = {C34BCA9E-705A-49F7-9530-E3338C810EF9}
 		{FA9C1BA6-2673-4A6C-B0E7-18AA19F02E27} = {C34BCA9E-705A-49F7-9530-E3338C810EF9}
 		{69F846C4-B794-43EB-A67A-7E07FFC601BC} = {C34BCA9E-705A-49F7-9530-E3338C810EF9}
+		{2AD69F7B-A3F5-45B9-B376-ED2F709232F4} = {551017EC-65AE-4C5E-8CD6-47B8507F27A9}
 	EndGlobalSection
 EndGlobal
