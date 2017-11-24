@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2AD69F7B-A3F5-45B9-B376-ED2F709232F4}</ProjectGuid>
+    <ProjectGuid>{266B1ED4-B6C7-4CE4-878E-60BF2159DC43}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_17_pavyzdziai</RootNamespace>
-    <AssemblyName>17 pavyzdziai</AssemblyName>
+    <RootNamespace>projektas</RootNamespace>
+    <AssemblyName>projektas</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Darbuotojas.cs" />
-    <Compile Include="Medikas.cs" />
-    <Compile Include="Policininkas.cs" />
+    <Compile Include="PirmasSaltinis.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
