@@ -185,6 +185,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18 gui", "18 gui", "{A2F400
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-1 pasibandymai su gui", "18-1 pasibandymai su gui\18-1 pasibandymai su gui.csproj", "{C09F466A-02C3-41F2-BD6C-31E8A0EC8A56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarbasSuFailu", "DarbasSuFailu\DarbasSuFailu.csproj", "{D7B9F6AF-6D03-4DB1-B5E8-D13D2315B62F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +485,10 @@ Global
 		{C09F466A-02C3-41F2-BD6C-31E8A0EC8A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C09F466A-02C3-41F2-BD6C-31E8A0EC8A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C09F466A-02C3-41F2-BD6C-31E8A0EC8A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B9F6AF-6D03-4DB1-B5E8-D13D2315B62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B9F6AF-6D03-4DB1-B5E8-D13D2315B62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B9F6AF-6D03-4DB1-B5E8-D13D2315B62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B9F6AF-6D03-4DB1-B5E8-D13D2315B62F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -561,5 +567,6 @@ Global
 		{2AD69F7B-A3F5-45B9-B376-ED2F709232F4} = {551017EC-65AE-4C5E-8CD6-47B8507F27A9}
 		{266B1ED4-B6C7-4CE4-878E-60BF2159DC43} = {861A9458-FAA2-4F99-9942-A0BFB36CCA1C}
 		{C09F466A-02C3-41F2-BD6C-31E8A0EC8A56} = {A2F400D8-B452-4980-BCB8-3A42074E9CB0}
+		{D7B9F6AF-6D03-4DB1-B5E8-D13D2315B62F} = {A2F400D8-B452-4980-BCB8-3A42074E9CB0}
 	EndGlobalSection
 EndGlobal
